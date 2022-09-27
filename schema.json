@@ -13,25 +13,28 @@
         "label": "image_url"
       },
       {
-        "type": "text",
-        "key": "label",
-        "label": "Label"
-      },
-      {
-        "type": "text",
-        "key": "caption",
-        "label": "Caption"
-      },
-      {
         "type": "boolean",
         "key": "details",
         "label": "Show details"
       },
       {
+        "type": "text",
+        "key": "label",
+        "label": "Label",
+        "dependsOn": "details"
+      },
+      {
+        "type": "text",
+        "key": "caption",
+        "label": "Caption",
+        "dependsOn": "details"
+      },
+      {
         "type": "select",
         "options": ["16px", "24px", "32px", "40px", "48px"],
         "key": "size",
-        "label": "Avatar Size"
+        "label": "Avatar Size",
+        "defaultValue": "32px"
       }
     ]
   }

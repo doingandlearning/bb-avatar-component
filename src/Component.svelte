@@ -50,6 +50,7 @@
     overflow: hidden;
     position: relative;
     width: var(--size, 24px);
+    object-fit: cover;
   }
   .text-container {
     color: black;
