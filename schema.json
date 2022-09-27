@@ -1,0 +1,38 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-avatar",
+    "friendlyName": "Avatar component",
+    "description": "A content area to display user information and profile image.",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "url",
+        "key": "imageUrl",
+        "label": "image_url"
+      },
+      {
+        "type": "text",
+        "key": "label",
+        "label": "Label"
+      },
+      {
+        "type": "text",
+        "key": "caption",
+        "label": "Caption"
+      },
+      {
+        "type": "boolean",
+        "key": "details",
+        "label": "Show details"
+      },
+      {
+        "type": "select",
+        "options": ["16px", "24px", "32px", "40px", "48px"],
+        "key": "size",
+        "label": "Avatar Size"
+      }
+    ]
+  }
+}
