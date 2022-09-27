@@ -1,8 +1,8 @@
 # Bb-avatar
-This is a readme for your new Budibase plugin.
+This is an avatar component for Budibase.
 
 # Description
-An amazing Budibase component!
+A content area to display user information and profile image.
 
 Find out more about [Budibase](https://github.com/Budibase/budibase).
 
